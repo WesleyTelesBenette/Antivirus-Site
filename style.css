@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: 'Raleway', Arial;
+    font-weight: 500;
+}
+
+.barraNav {
+    display: flex;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.barraNav__header {
+    margin: 10x;
+    font-size: 24px;
+    margin: 5%;
+}
+
+.barraNav__button {
+    margin: 5%;
+}
+
+.barraNav__button__item {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    animation: anim-out__barraNav__button__item 700ms;
+    color: white;
+    background-color: #0c0c0c;
+    border: 1px solid #2c2c2c;
+}
+
+.barraNav__button__item:hover {
+    animation: anim-in__barraNav__button__item 300ms;
+    color: rgb(0, 132, 255);
+    background-color: #00080c;
+    border: 1px solid rgb(0, 132, 255);
+}
+
+@keyframes anim-in__barraNav__button__item {
+    0% {
+        color: white;
+        background-color: #0c0c0c;
+        border: 1px solid #2c2c2c;
+    }
+    100% {
+        color: rgb(0, 132, 255);
+        background-color: #00080c;
+        border: 1px solid rgb(0, 132, 255);
+    }
+}
+
+@keyframes anim-out__barraNav__button__item {
+    0% {
+        color: rgb(0, 132, 255);
+        background-color: #00080c;
+        border: 1px solid rgb(0, 132, 255);
+    }
+    100% {
+        color: white;
+        background-color: #0c0c0c;
+        border: 1px solid #2c2c2c;
+    }
+}
