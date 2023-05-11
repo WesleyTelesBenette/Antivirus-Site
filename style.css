@@ -10,6 +10,7 @@
     --color-barra: #000000;
     --color-text-01: #ffffff;
     --color-destaque: rgb(0, 132, 255);
+    --color-destaque-active: rgb(0, 153, 59);;
     --color-main-button: #00000085;
     --color-main-button-hover: rgb(144, 201, 255);
 }
@@ -71,9 +72,14 @@ strong {
 .barraNav__button__item:hover {
     color: var(--color-destaque);
     background-color: #00080c;
-    border: 1px solid rgb(0, 132, 255); 
+    border: 1px solid var(--color-destaque); 
 }
 
+.barraNav__button__item:active {
+    color: var(--color-destaque-active);
+    background-color: #00080c;
+    border: 1px solid var(--color-destaque-active); 
+}
 
 .main__section {
     display: flex;
