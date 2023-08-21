@@ -1,2 +1,2 @@
 # Antivirus-Site
-Um site que simule uma empresa de antivírus, pros meus estudos de HTML e CSS.
+Um site simples que simule a página pricipal de uma empresa de antivírus, pros meus estudos de HTML e CSS.
